@@ -33,8 +33,11 @@ sortOrder = "published_at desc"
         {% if this.theme.twitter_url %}
             <li><a href="{{ this.theme.twitter_url }}" target="_blank">Twitter</a></li>
         {% endif %}
-        {% if this.theme.facebook_url %}
-            <li><a href="{{ this.theme.facebook_url }}" target="_blank">Facebook</a></li>
+        {% if this.theme.github_url %}
+            <li><a href="{{ this.theme.github_url }}" target="_blank">GitHub</a></li>
+        {% endif %}
+        {% if this.theme.qiita_url %}
+            <li><a href="{{ this.theme.qiita_url }}" target="_blank">Qiita</a></li>
         {% endif %}
         <li><a href="{{ 'blog/rss'|page }}">RSS Feed</a></li>
     </ul>
