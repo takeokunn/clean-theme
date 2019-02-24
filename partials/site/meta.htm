@@ -1,10 +1,27 @@
 <meta charset="utf-8">
 <title>{{ this.page.title }} - {{ this.theme.site_name }}</title>
+
 <meta name="description" content="{{ this.page.meta_description }}">
 <meta name="title" content="{{ this.page.meta_title }}">
-<meta name="author" content="OctoberCMS">
+<meta name="author" content="takeokunn">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="OctoberCMS">
+
+<!-- for ogp -->
+<meta property="og:title" content="{{ this.page.title }} - {{ this.theme.site_name }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ this.page.url }}">
+<meta property="og:image" content="https://takeokunn.xyz/storage/app/media/icon.png">
+<meta property="og:site_name" content="takeokunn's blog">
+<meta property="og:description" content="poem driven development">
+<meta property="fb:admins" content="100010281068944">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="takeokunn's blog">
+<meta name="twitter:image" content="https://takeokunn.xyz/storage/app/media/icon.png">
+<meta name="twitter:title" content="{{ this.page.title }} - {{ this.theme.site_name }}">
+<meta name="twitter:description" content="poem driven development">
+
+
 <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
 <link href="{{ [
     '@framework.extras',
