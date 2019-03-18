@@ -30,6 +30,9 @@ sortOrder = "published_at desc"
 <div class="sidebar-segment">
     <h2 class="segment-title">Follow me</h2>
     <ul class="segment-list">
+        {% if this.theme.portfolio_url %}
+            <li><a href="{{ this.theme.portfolio_url }}" target="_blank">Portfolio</a></li>
+        {% endif %}
         {% if this.theme.twitter_url %}
             <li><a href="{{ this.theme.twitter_url }}" target="_blank">Twitter</a></li>
         {% endif %}

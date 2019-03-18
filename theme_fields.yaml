@@ -15,6 +15,11 @@ fields:
         default: poem driven development
         span: auto
 
+    portfolio_url:
+        label: Portfolio URL
+        span: auto
+        default: https://portfolio.takeokunn.xyz
+
     twitter_url:
         label: Twitter URL
         span: auto
