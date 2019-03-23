@@ -22,9 +22,9 @@
 <meta name="twitter:description" content="poem driven development">
 
 <link rel="icon" type="image/png" href="{{ 'assets/images/favicon.ico'|theme }}">
-<link rel="preload" as="style" href="{{ [
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="{{ [
     '@framework.extras',
     'assets/less/vendor.less'
 ]|theme }}" rel="stylesheet">
-<link rel="preload" as="style" href="{{ ['assets/less/theme.less']|theme }}" rel="stylesheet">
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="{{ ['assets/less/theme.less']|theme }}" rel="stylesheet">
 {% styles %}
